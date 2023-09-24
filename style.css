@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'Evolventa Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Regular'), url('Evolventa-Regular.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Evolventa Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Oblique'), url('Evolventa-Oblique.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Evolventa Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Bold'), url('Evolventa-Bold.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Evolventa Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evolventa Bold Oblique'), url('Evolventa-BoldOblique.woff') format('woff');
+    }
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Evolventa Regular';
+}
+
+h1 {
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  margin-bottom: -25px;
+}
+
+.vic-pics {
+  background-color: #E1B6B6;
+  width: 100%;
+  text-align: center;
+}
+
+.vic-pics img {
+  max-width: 100%;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.about-me {
+  background-color: #FFEBE9;
+  display: flex
+}
+
+.about-me img {
+  float: right;
+  top: -50px;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.about-me p {
+  float: left;
+  font-family: 'Evolventa Oblique';
+  margin: 50px;
+}
+
+p {
+  margin: 70px 150px;
+  font-size: 22px;
+}
+
+.buttons a {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
