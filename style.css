@@ -98,3 +98,17 @@ p {
   justify-content: space-around;
   margin-top: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  p {
+    margin: 70px 30px;
+    font-size: 16px;
+  }  
+  .about-me img {
+    float: none;
+  }
+  .about-me p {
+    float: none;
+    margin: 15px;
+  }
+}
